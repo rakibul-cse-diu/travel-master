@@ -1,0 +1,43 @@
+nav a {
+    margin-left: 15px;
+    padding: 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #F9A51A;
+    text-decoration-thickness: 2px;
+}
+
+.button {
+    padding: 6px 16px;
+    background-color: #F9A51A;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #e79410;
+}
+
+
+@media only screen and (max-width: 992px) {
+    nav {
+        padding-top: 100px;
+    }
+
+    nav a {
+        margin: 15px;
+    }
+
+    .button {
+        text-align: center;
+        color: white;
+        /* background-color: bisque; */
+    }
+
+    /* .button:hover {
+        color: white;
+        text-decoration: none;
+    } */
+
+}
