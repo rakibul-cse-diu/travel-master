@@ -17,6 +17,7 @@ nav a:hover {
 
 .button:hover {
     background-color: #e79410;
+    text-decoration: none;
 }
 
 
